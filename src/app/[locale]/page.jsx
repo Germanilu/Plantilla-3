@@ -22,6 +22,7 @@ export default function Home() {
       <div className="second-section">
         <h2>{t('second-section-title')}</h2>
       </div>
+      
       <Map />
       <ScrollToTop />
     </div>
