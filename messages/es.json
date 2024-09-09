@@ -4,38 +4,35 @@
     "first-section-title": "TITULO PRIMERA SECCION",
     "second-section-title": "TITULO SEGUNDA SECCION"
   },
-  "Hero":{
-    "desc":"Levanta tu copa",
-    "title":"eleva tu noche",
-    "button":"Descubre más"
+  "Hero": {
+    "desc": "Levanta tu copa",
+    "title": "eleva tu noche",
+    "button": "Descubre más"
   },
-  "Navbar":{
+  "Navbar": {
     "home": "Home",
-    "about-us":"Sobre nosotros",
+    "about-us": "Sobre nosotros",
     "menu": "Menu",
-    "contact-us":"Contacto"
+    "contact-us": "Contacto"
   },
-  "About":{
-    "title":"Titulo pagina sobre nosotros"
+  "About": {
+    "title": "Titulo pagina sobre nosotros"
   },
-  "Contact-us":{
-    "title":"Contacta con nosotros Titulo"
+  "Contact-us": {
+    "title": "Contacta con nosotros Titulo"
   },
-  "Contact-us-component":{
-    "title":"Contacto",
-    "subtitle":"Subtitulo",
-    "name-tag":"name",
-    "name-placeholder":"name",
-    "email-tag":"email",
-    "email-placeholder":"email",
-    "message-tag":"mensaje",
-    "message-placeholder":"mensaje",
+  "Contact-us-component": {
+    "placeholder-phone": "Teléfono",
+    "placeholder-name": "Tu Nombre",
+    "book-a-table": "Reservar una Mesa",
     "send": "Enviar",
-    "loading":"Cargando",
-    "success-alert":"Gracias. Nos pondremos en contacto contigo tan pronto como sea posible",
-    "unsuccess-alert":"¡Ah, algo salió mal! Por favor, inténtalo de nuevo."
+    "loading": "Cargando",
+    "person": "Persona",
+    "persons": "Personas",
+    "success-alert": "Gracias. Nos pondremos en contacto contigo tan pronto como sea posible.",
+    "unsuccess-alert": "¡Oh, algo salió mal! Por favor, inténtalo de nuevo."
   },
-  "Footer":{
+  "Footer": {
     "title": "Footer"
   }
 }

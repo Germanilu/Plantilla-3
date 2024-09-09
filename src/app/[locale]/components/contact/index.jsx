@@ -106,12 +106,12 @@ export default function Contact() {
         <div className="select-container">
           <IoPersonAddSharp />
           <select id="persons" name="persons" className="sub-container" onChange={handleChange}>
-            <option value="1">1 Person</option>
-            <option value="2">2 Persons</option>
-            <option value="3">3 Persons</option>
-            <option value="4">4 Persons</option>
-            <option value="5">5 Persons</option>
-            <option value="6">6 Persons</option>
+            <option value="1">1 {t('person')}</option>
+            <option value="2">2 {t('persons')}</option>
+            <option value="3">3 {t('persons')}</option>
+            <option value="4">4 {t('persons')}</option>
+            <option value="5">5 {t('persons')}</option>
+            <option value="6">6 {t('persons')}</option>
           </select>
         </div>
 
@@ -136,7 +136,7 @@ export default function Contact() {
           </select>
         </div>
 
-        <div className={`${!showMoreInfo ? "button" : "hide"}`} onClick={() => setShowMoreInfo(!showMoreInfo)}>Book a table</div>
+        <div className={`${!showMoreInfo ? "button" : "hide"}`} onClick={() => setShowMoreInfo(!showMoreInfo)}>{t('book-a-table')}</div>
 
         <motion.div className={`${showMoreInfo ? "more-information-contact" : "hide"}`}
            variants={{
@@ -150,11 +150,11 @@ export default function Contact() {
         >
           <div className="select-container">
             <MdDriveFileRenameOutline />
-            <input id="name" name="name" type="text" placeholder="Your Name" className="sub-container" onChange={handleChange} />
+            <input id="name" name="name" type="text" placeholder={t('placeholder-name')} className="sub-container" onChange={handleChange} />
           </div>
           <div className="select-container">
             <FaPhone />
-            <input id="phone" name="phone" type="text" placeholder="phone" className="sub-container" onChange={handleChange} />
+            <input id="phone" name="phone" type="text" placeholder={t('placeholder-phone')} className="sub-container" onChange={handleChange} />
           </div>
           <button
             type='submit'

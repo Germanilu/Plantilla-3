@@ -22,18 +22,15 @@
       "title":"Contact Us TITLE"
     },
     "Contact-us-component":{
-      "title":"Contact",
-      "subtitle":"Subtitle",
-      "name-tag":"name",
-      "name-placeholder":"name",
-      "email-tag":"email",
-      "email-placeholder":"email",
-      "message-tag":"message",
-      "message-placeholder":"message",
-      "send": "Send",
-      "loading":"Loading ...",
-      "success-alert":"Thank you. We will get back to you as soon as possible.",
-      "unsuccess-alert":"Ahh, something went wrong. Please try again."
+      "placeholder-phone":"Phone",
+      "placeholder-name":"Your Name",
+      "book-a-table":"Book a Table ",
+      "send":"Send",
+      "loading":"Loading",
+      "person":"Person",
+      "persons":"Persons",
+      "success-alert": "Thank you. We will get in touch with you as soon as possible.",
+      "unsuccess-alert": "Oh, something went wrong! Please try again."
     },
     "Footer":{
       "title": "Footer"
