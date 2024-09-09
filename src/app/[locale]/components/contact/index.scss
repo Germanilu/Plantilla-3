@@ -63,3 +63,42 @@
         }
     }
 }
+
+@media  (max-width: 744px) {
+    .contact-design{
+        .form{
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .select-container{
+                width: 60%;
+            }
+            .more-information-contact{
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               width: 100%;
+               gap: 2rem;
+                .select-container{
+                    width: 60%;
+                }
+            }
+
+        }
+    }
+}
+@media  (max-width: 390px) {
+    .contact-design{
+        .form{
+            .select-container{
+                width: 90%;
+            }
+            .more-information-contact{
+                .select-container{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
