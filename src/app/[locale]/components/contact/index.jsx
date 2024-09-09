@@ -1,29 +1,32 @@
 'use client';
-import React, { useRef, useState }        from "react";
-import emailjs                            from "@emailjs/browser";
-
-
-import { useTranslations }                from "next-intl";
-
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { IoPersonAddSharp } from "react-icons/io5";
+import { TbClockHour5 } from "react-icons/tb";
+import { MdDriveFileRenameOutline } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 import './index.scss';
-
 
 export default function Contact() {
   const formRef = useRef();
   const t = useTranslations("Contact-us-component");
 
-  const [startDate, setStartDate] = useState(new Date());
-  
-  //State
+  const [formError, setFormError] = useState("");
+  const [showMoreInfo, setShowMoreInfo] = useState(false);
+
+  // State
   const [form, setForm] = useState({
     persons: "",
     date: "",
     hour: "",
+    name:"",
+    phone:""
   });
-  
+
   const [loading, setLoading] = useState(false);
-  
-  //Functions
+
+  // Functions
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -32,63 +35,83 @@ export default function Contact() {
       [name]: value,
     });
   };
-  
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    
-    emailjs
-    .send(
-      "service_ro4u14g",
-      "template_lledwkg",
-      {
-        from_name: form.name,
-        to_name: "Luciano",
-        from_email: form.email,
-        to_email: "lucianogermani93@gmail.com",
-        message: `${form.persons} Person,  Date: ${form.date} Time: ${form.hour}` ,
-      },
-      "p4zQqM0lGfEuM7HC9"
-    )
-    .then(
-      () => {
-        setLoading(false);
-        alert(t('success-alert'));
-        
-        setForm({
-          persons: "",
-          date: "",
-          time: "",
-        });
-      },
-      (error) => {
-        setLoading(false);
-        console.error(error);
-        alert(t('unsuccess-alert'));
-      }
-    );
+
+  const checkFormErrors = () => {
+    if (form.persons === "" || form.date === "" || form.hour === "" || form.name === "" || form.phone === "" ) {
+      setFormError('Please fill in all the fields.');
+      return false; // Return false to indicate validation failed
+    }
+    setFormError(""); // Clear error message if all fields are filled
+    return true; // Return true to indicate validation passed
   };
-  
-  
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent form from reloading the page
+
+    if (!checkFormErrors()) {
+      return; // Stop form submission if validation fails
+    }
+
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_ro4u14g",
+        "template_lledwkg",
+        {
+          from_name: form.name,
+          to_name: "Luciano",
+          from_email: form.email,
+          to_email: "lucianogermani93@gmail.com",
+          message: `${form.persons} Person, Date: ${form.date} Time: ${form.hour} Contact Information: Name: ${form.name} Phone: ${form.phone} `,
+        },
+        "p4zQqM0lGfEuM7HC9"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(t('success-alert'));
+
+          setForm({
+            persons: "",
+            date: "",
+            hour: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+          alert(t('unsuccess-alert'));
+        }
+      );
+  };
+
   return (
-    <div className='contact-design' >
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='form'
-        >
-        <select id="persons" name="persons" className="select-container" onChange={handleChange}>
+    <div className='contact-design'>
+      <form
+        ref={formRef}
+        onSubmit={handleSubmit}
+        className='form'
+      >
+        <div className="select-container">
+          <IoPersonAddSharp />
+          <select id="persons" name="persons" className="sub-container" onChange={handleChange}>
             <option value="1">1 Person</option>
             <option value="2">2 Persons</option>
             <option value="3">3 Persons</option>
             <option value="4">4 Persons</option>
             <option value="5">5 Persons</option>
             <option value="6">6 Persons</option>
-        </select>
+          </select>
+        </div>
 
-        <input  type="date" id="date" name="date" required className="select-container" onChange={handleChange}/>
+        <div className="select-container">
+          <input type="date" id="date" name="date" required className="sub-container" onChange={handleChange} />
+        </div>
 
-        <select id="hour" name="hour" className="select-container" onChange={handleChange}>
+        <div className="select-container">
+          <TbClockHour5/>
+          <select id="hour" name="hour" className="sub-container" onChange={handleChange}>
             <option value="12:00">12:00</option>
             <option value="13:00">13:00</option>
             <option value="14:00">14:00</option>
@@ -100,50 +123,32 @@ export default function Contact() {
             <option value="20:00">20:00</option>
             <option value="21:00">21:00</option>
             <option value="22:00">22:00</option>
-        </select>
+          </select>
+        </div>
 
-          {/* <label className='form-label'>
-            <span className='name'>{t('name-tag')}</span>
-            <input
-              type='select'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder={t('name-placeholder')}
-              className='input'
-            />
-          </label> */}
-          {/* <label className='form-label'>
-            <span className='email'>{t('email-tag')}</span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder={t('email-placeholder')}
-              className='input'
-            />
-          </label> */}
-          {/* <label className='form-label'>
-            <span className='message'>{t('message-tag')}</span>
-            <textarea
-              rows={7}
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder={t('message-placeholder')}
-              className='input textarea'
-            />
-          </label> */}
+        <div className={`${!showMoreInfo ? "button":"hide"}`} onClick={() => setShowMoreInfo(!showMoreInfo)}>Book a table</div>
 
-          <button
-            type='submit'
-            className='button'
-          >
-            {loading ? t('loading') : t('send')}
-          </button>
-        </form>
-      
+        <div className={`${showMoreInfo ? "more-information-contact":"hide"}`}>
+        <div className="select-container">
+          <MdDriveFileRenameOutline/>
+          <input id="name" name="name" type="text" placeholder="Your Name" className="sub-container" onChange={handleChange}/>
+        </div>
+        <div className="select-container">
+          <FaPhone/>
+          <input id="phone" name="phone" type="text" placeholder="phone" className="sub-container" onChange={handleChange}/>
+        </div>
+
+        
+        <button
+          type='submit'
+          className='button'
+        >
+          {loading ? t('loading') : t('send')}
+        </button>
+        </div>
+
+        {formError && <div className="error">{formError}</div>}
+      </form>
     </div>
   )
 }
