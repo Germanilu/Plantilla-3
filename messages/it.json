@@ -1,6 +1,8 @@
 {
-    "Hero":{
-        "slogan":""
+      "Hero":{
+        "desc":"Sorseggia l'eccellenza",
+        "title":"vivi la notte",
+        "button":"Scopri di piú"
       },
       "Navbar":{
         "home": "Home",

@@ -4,6 +4,11 @@
       "first-section-title": "First section title",
       "second-section-title": "Second section title"
     },
+    "Hero":{
+      "desc":"Raise Your Glass",
+      "title":"Elevate Your Night",
+      "button":"View more"
+    },
     "Navbar":{
       "home": "Home",
       "about-us":"About",

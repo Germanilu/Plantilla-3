@@ -10,9 +10,9 @@ const Hero = () => {
         <div className='hero-design'>
             <div className="main-container">
             <div className="hero-text">
-                <div className="text">Exclusive drink service</div>
-                <h1 className="title">Cocktail stage evenings</h1>
-                <div className="call-to-action">view more</div>
+                <div className="text">{t('desc')}</div>
+                <h1 className="title">{t('title')}</h1>
+                <div className="call-to-action">{t('button')}</div>
             </div>
                 <Image className="img" src={heroImage} alt="drink1"  quality={100} />
             </div>

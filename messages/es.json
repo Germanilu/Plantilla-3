@@ -4,6 +4,11 @@
     "first-section-title": "TITULO PRIMERA SECCION",
     "second-section-title": "TITULO SEGUNDA SECCION"
   },
+  "Hero":{
+    "desc":"Levanta tu copa",
+    "title":"eleva tu noche",
+    "button":"Descubre más"
+  },
   "Navbar":{
     "home": "Home",
     "about-us":"Sobre nosotros",
