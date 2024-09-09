@@ -8,7 +8,12 @@ const Hero = () => {
 
     return(
         <div className='hero-design'>
-            <div className="img-container">
+            <div className="main-container">
+            <div className="hero-text">
+                <div className="text">Exclusive drink service</div>
+                <h1 className="title">Cocktail stage evenings</h1>
+                <div className="call-to-action">view more</div>
+            </div>
                 <Image className="img" src={heroImage} alt="drink1"  quality={100} />
             </div>
         </div>
