@@ -32,6 +32,26 @@
       "success-alert": "Thank you. We will get in touch with you as soon as possible.",
       "unsuccess-alert": "Oh, something went wrong! Please try again."
     },
+    "Opening-Hours":{
+      "visit-a-bar":"Visit a bar",
+      "opening-hours":"Opening Hours",
+      "monday-friday":"Monday - Friday:",
+      "four-to-one":"4:00 pm - 1:00am",
+      "saturday":"Saturday:",
+      "four-to-three":"4:00 pm - 3:00am",
+      "sunday":"Sunday:",
+      "four-to-two":"4:00 pm - 2:00am",
+      "visit-us":"Visit Us",
+      "best-offer":"The best offer",
+      "happy-hour":"Happy Hour",
+      "monday-sunday":"Monday - Sunday:",
+      "four-to-seven":"4:00pm - 7:00pm",
+      "first-text":"20% off all wine by the glass",
+      "second-text":"15% off all cocktails",
+      "third-text":"25% off selected craft beer",
+      "fourth-text":"10% off all spirits",
+      "view-more":"View more"
+    },
     "Footer":{
       "title": "Footer"
     }

@@ -31,6 +31,26 @@
     "success-alert": "Grazie. Ti contatteremo il prima possibile.",
     "unsuccess-alert": "Oh, qualcosa è andato storto! Per favore, riprova."
   },
+  "Opening-Hours": {
+  "visit-a-bar": "Visita un bar",
+  "opening-hours": "Orari di Apertura",
+  "monday-friday": "Lunedì - Venerdì:",
+  "four-to-one": "16:00 - 01:00",
+  "saturday": "Sabato:",
+  "four-to-three": "16:00 - 03:00",
+  "sunday": "Domenica:",
+  "four-to-two": "16:00 - 02:00",
+  "visit-us": "Vieni a Trovarci",
+  "best-offer": "La migliore offerta",
+  "happy-hour": "Happy Hour",
+  "monday-sunday": "Lunedì - Domenica:",
+  "four-to-seven": "16:00 - 19:00",
+  "first-text": "20% di sconto su tutti i vini al bicchiere",
+  "second-text": "15% di sconto su tutti i cocktail",
+  "third-text": "25% di sconto su birre artigianali selezionate",
+  "fourth-text": "10% di sconto su tutti i distillati",
+  "view-more": "Vedi di più"
+  },
   "Footer": {
     "title": "Footer"
   }

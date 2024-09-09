@@ -32,6 +32,26 @@
     "success-alert": "Gracias. Nos pondremos en contacto contigo tan pronto como sea posible.",
     "unsuccess-alert": "¡Oh, algo salió mal! Por favor, inténtalo de nuevo."
   },
+  "Opening-Hours": {
+  "visit-a-bar": "Visita un bar",
+  "opening-hours": "Horario de Apertura",
+  "monday-friday": "Lunes - Viernes:",
+  "four-to-one": "4:00 pm - 1:00 am",
+  "saturday": "Sábado:",
+  "four-to-three": "4:00 pm - 3:00 am",
+  "sunday": "Domingo:",
+  "four-to-two": "4:00 pm - 2:00 am",
+  "visit-us": "Visítanos",
+  "best-offer": "La mejor oferta",
+  "happy-hour": "Happy Hour",
+  "monday-sunday": "Lunes - Domingo:",
+  "four-to-seven": "4:00 pm - 7:00 pm",
+  "first-text": "20% de descuento en todas las copas de vino",
+  "second-text": "15% de descuento en todos los cócteles",
+  "third-text": "25% de descuento en cerveza artesanal seleccionada",
+  "fourth-text": "10% de descuento en todos los licores",
+  "view-more": "Ver más"
+  },
   "Footer": {
     "title": "Footer"
   }
