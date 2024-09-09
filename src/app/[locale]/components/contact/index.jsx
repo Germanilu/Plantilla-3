@@ -122,10 +122,6 @@ export default function Contact() {
         <div className="select-container">
           <TbClockHour5 />
           <select id="hour" name="hour" className="sub-container" onChange={handleChange}>
-            <option value="12:00">12:00</option>
-            <option value="13:00">13:00</option>
-            <option value="14:00">14:00</option>
-            <option value="15:00">15:00</option>
             <option value="16:00">16:00</option>
             <option value="17:00">17:00</option>
             <option value="18:00">18:00</option>
@@ -133,6 +129,10 @@ export default function Contact() {
             <option value="20:00">20:00</option>
             <option value="21:00">21:00</option>
             <option value="22:00">22:00</option>
+            <option value="23:00">23:00</option>
+            <option value="24:00">24:00</option>
+            <option value="00:00">00:00</option>
+            <option value="01:00">01:00</option>
           </select>
         </div>
 
