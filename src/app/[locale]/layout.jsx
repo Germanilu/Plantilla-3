@@ -7,6 +7,7 @@ import { useLocale }                         from "next-intl";
 import { notFound }                          from "next/navigation";
 import { Providers }                         from "../Redux/provider";
 import "./globals.css";
+
 const inter = Kanit({ subsets: ["latin"], weight: ['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
