@@ -1,5 +1,6 @@
 'use client';
 import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { IoPersonAddSharp } from "react-icons/io5";
 import { TbClockHour5 } from "react-icons/tb";
@@ -20,8 +21,8 @@ export default function Contact() {
     persons: "",
     date: "",
     hour: "",
-    name:"",
-    phone:""
+    name: "",
+    phone: ""
   });
 
   const [loading, setLoading] = useState(false);
@@ -37,7 +38,7 @@ export default function Contact() {
   };
 
   const checkFormErrors = () => {
-    if (form.persons === "" || form.date === "" || form.hour === "" || form.name === "" || form.phone === "" ) {
+    if (form.persons === "" || form.date === "" || form.hour === "" || form.name === "" || form.phone === "") {
       setFormError('Please fill in all the fields.');
       return false; // Return false to indicate validation failed
     }
@@ -87,7 +88,16 @@ export default function Contact() {
   };
 
   return (
-    <div className='contact-design'>
+    <motion.div className='contact-design'
+    variants={{
+      hidden: { opacity: 0, y: 70 },
+      visible: { opacity: 1, y: 0 },
+    }}
+    transition={{ delay: .1, duration: 0.5 }}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+    >
       <form
         ref={formRef}
         onSubmit={handleSubmit}
@@ -110,7 +120,7 @@ export default function Contact() {
         </div>
 
         <div className="select-container">
-          <TbClockHour5/>
+          <TbClockHour5 />
           <select id="hour" name="hour" className="sub-container" onChange={handleChange}>
             <option value="12:00">12:00</option>
             <option value="13:00">13:00</option>
@@ -126,29 +136,36 @@ export default function Contact() {
           </select>
         </div>
 
-        <div className={`${!showMoreInfo ? "button":"hide"}`} onClick={() => setShowMoreInfo(!showMoreInfo)}>Book a table</div>
+        <div className={`${!showMoreInfo ? "button" : "hide"}`} onClick={() => setShowMoreInfo(!showMoreInfo)}>Book a table</div>
 
-        <div className={`${showMoreInfo ? "more-information-contact":"hide"}`}>
-        <div className="select-container">
-          <MdDriveFileRenameOutline/>
-          <input id="name" name="name" type="text" placeholder="Your Name" className="sub-container" onChange={handleChange}/>
-        </div>
-        <div className="select-container">
-          <FaPhone/>
-          <input id="phone" name="phone" type="text" placeholder="phone" className="sub-container" onChange={handleChange}/>
-        </div>
-
-        
-        <button
-          type='submit'
-          className='button'
+        <motion.div className={`${showMoreInfo ? "more-information-contact" : "hide"}`}
+           variants={{
+            hidden: { opacity: 0, y: 70 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          transition={{ delay: .3, duration: 0.5 }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
         >
-          {loading ? t('loading') : t('send')}
-        </button>
-        </div>
+          <div className="select-container">
+            <MdDriveFileRenameOutline />
+            <input id="name" name="name" type="text" placeholder="Your Name" className="sub-container" onChange={handleChange} />
+          </div>
+          <div className="select-container">
+            <FaPhone />
+            <input id="phone" name="phone" type="text" placeholder="phone" className="sub-container" onChange={handleChange} />
+          </div>
+          <button
+            type='submit'
+            className='button'
+          >
+            {loading ? t('loading') : t('send')}
+          </button>
+        </motion.div>
 
         {formError && <div className="error">{formError}</div>}
       </form>
-    </div>
+    </motion.div>
   )
 }
