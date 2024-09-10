@@ -1,58 +1,81 @@
 {
-    "Home": {
-      "title": "Main title",
-      "first-section-title": "First section title",
-      "second-section-title": "Second section title"
-    },
-    "Hero":{
-      "desc":"Raise Your Glass",
-      "title":"Elevate Your Night",
-      "button":"View more"
-    },
-    "Navbar":{
-      "home": "Home",
-      "about-us":"About",
-      "menu": "Menu",
-      "contact-us":"Contact Us"
-    },
-    "About":{
-      "title":"About main title"
-    },
-    "Contact-us":{
-      "title":"Contact Us TITLE"
-    },
-    "Contact-us-component":{
-      "placeholder-phone":"Phone",
-      "placeholder-name":"Your Name",
-      "book-a-table":"Book a Table ",
-      "send":"Send",
-      "loading":"Loading",
-      "person":"Person",
-      "persons":"Persons",
-      "success-alert": "Thank you. We will get in touch with you as soon as possible.",
-      "unsuccess-alert": "Oh, something went wrong! Please try again."
-    },
-    "Opening-Hours":{
-      "visit-a-bar":"Visit a bar",
-      "opening-hours":"Opening Hours",
-      "monday-friday":"Monday - Friday:",
-      "four-to-one":"4:00 pm - 1:00am",
-      "saturday":"Saturday:",
-      "four-to-three":"4:00 pm - 3:00am",
-      "sunday":"Sunday:",
-      "four-to-two":"4:00 pm - 2:00am",
-      "visit-us":"Visit Us",
-      "best-offer":"The best offer",
-      "happy-hour":"Happy Hour",
-      "monday-sunday":"Monday - Sunday:",
-      "four-to-seven":"4:00pm - 7:00pm",
-      "first-text":"20% off all wine by the glass",
-      "second-text":"15% off all cocktails",
-      "third-text":"25% off selected craft beer",
-      "fourth-text":"10% off all spirits",
-      "view-more":"View more"
-    },
-    "Footer":{
-      "title": "Footer"
-    }
+  "Home": {
+    "title": "Main title",
+    "first-section-title": "First section title",
+    "second-section-title": "Second section title"
+  },
+  "Hero": {
+    "desc": "Raise Your Glass",
+    "title": "Elevate Your Night",
+    "button": "View more"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about-us": "About",
+    "menu": "Menu",
+    "contact-us": "Contact Us"
+  },
+  "Specials": {
+    "text": "Featured Creations",
+    "title": "Discover New Flavors",
+    "desc": "Indulge in our expertly crafted cocktails, where innovation meets tradition. Each sip is a journey through taste and elegance.",
+    "drink-name1": "French 75",
+    "drink-price1": "€12",
+    "drink-desc1": "A classic blend of gin, lemon juice, simple syrup, and Champagne, garnished with a lemon twist.",
+    "drink-name2": "Lavender Martini",
+    "drink-price2": "€14",
+    "drink-desc2": "A sophisticated mix of vodka, fresh lemon juice, and homemade lavender syrup, finished with a lavender sprig.",
+    "drink-name3": "Smoked Rosemary Old Fashioned",
+    "drink-price3": "€15",
+    "drink-desc3": "Bourbon, smoked rosemary syrup, Angostura bitters, and a hint of orange, served with a smoked rosemary sprig.",
+    "drink-name4": "Spicy Pineapple Margarita",
+    "drink-price4": "€16",
+    "drink-desc4": "Tequila, lime juice, Cointreau, and spicy pineapple puree, with a tajín rim and a slice of jalapeño.",
+    "drink-name5": "Cucumber Elderflower Cooler",
+    "drink-price5": "€18",
+    "drink-desc5": "Gin, elderflower liqueur, fresh cucumber juice, and a splash of soda, garnished with a cucumber ribbon.",
+    "drink-name6": "Blackberry Basil Smash",
+    "drink-price6": "€15",
+    "drink-desc6": "Vodka, fresh blackberries, basil, lemon juice, and simple syrup, served over crushed ice with a basil leaf."
+  },
+  "About": {
+    "title": "About main title"
+  },
+  "Contact-us": {
+    "title": "Contact Us TITLE"
+  },
+  "Contact-us-component": {
+    "placeholder-phone": "Phone",
+    "placeholder-name": "Your Name",
+    "book-a-table": "Book a Table ",
+    "send": "Send",
+    "loading": "Loading",
+    "person": "Person",
+    "persons": "Persons",
+    "success-alert": "Thank you. We will get in touch with you as soon as possible.",
+    "unsuccess-alert": "Oh, something went wrong! Please try again."
+  },
+  "Opening-Hours": {
+    "visit-a-bar": "Visit a bar",
+    "opening-hours": "Opening Hours",
+    "monday-friday": "Monday - Friday:",
+    "four-to-one": "4:00 pm - 1:00am",
+    "saturday": "Saturday:",
+    "four-to-three": "4:00 pm - 3:00am",
+    "sunday": "Sunday:",
+    "four-to-two": "4:00 pm - 2:00am",
+    "visit-us": "Visit Us",
+    "best-offer": "The best offer",
+    "happy-hour": "Happy Hour",
+    "monday-sunday": "Monday - Sunday:",
+    "four-to-seven": "4:00pm - 7:00pm",
+    "first-text": "20% off all wine by the glass",
+    "second-text": "15% off all cocktails",
+    "third-text": "25% off selected craft beer",
+    "fourth-text": "10% off all spirits",
+    "view-more": "View more"
+  },
+  "Footer": {
+    "title": "Footer"
   }
+}

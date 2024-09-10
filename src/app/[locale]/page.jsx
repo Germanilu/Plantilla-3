@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
 import OpeningHours from "./components/opening-hours";
+import Specials from "./components/specials";
 import ScrollToTop from "@/app/[locale]/components/scroll-to-top/index";
 import './page.scss';
 
@@ -23,6 +24,9 @@ export default function Home() {
       </div>
       <div className="second-section">
         <OpeningHours/>
+      </div>
+      <div className="third-section">
+        <Specials/>
       </div>
       
       <ScrollToTop />
