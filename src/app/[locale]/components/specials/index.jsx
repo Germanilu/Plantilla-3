@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import Button from '../button'
 import specialImg from '@/static/media/img/gnobg.png'
 import './index.scss';
 
@@ -107,7 +108,7 @@ const Specials = () => {
                         <span className="drink-price">{t('drink-price4')}</span>
                         <div className="drink-desc">{t('drink-desc4')}</div>
                     </motion.div>
-                    <div className="button">View More</div>
+                    <Button  href='/menu' text='view-more'/>
                 </div>
 
                 <motion.div className="special-img"

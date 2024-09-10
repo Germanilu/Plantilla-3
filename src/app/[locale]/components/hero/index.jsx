@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import heroImage from '@/static/media/img/hero.jpg'
+import Button from '../button'
 import Image from 'next/image';
 
 import './index.scss';
@@ -23,7 +24,7 @@ const Hero = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   >{t('title')}</motion.h1>
-                <div className="call-to-action">{t('button')}</div>
+                <Button  href='/blog' text='view-more'/>
             </div>
                 <Image className="img" src={heroImage} alt="drink1"  quality={100} />
             </div>

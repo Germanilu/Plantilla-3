@@ -6,8 +6,10 @@
   },
   "Hero": {
     "desc": "Raise Your Glass",
-    "title": "Elevate Your Night",
-    "button": "View more"
+    "title": "Elevate Your Night"
+  },
+  "Button":{
+    "view-more": "View more"
   },
   "Navbar": {
     "home": "Home",

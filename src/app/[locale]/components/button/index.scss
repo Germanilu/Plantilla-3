@@ -1,0 +1,42 @@
+.button-design{   
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid currentColor;
+    box-shadow: 
+      /* --- "glass" tube --- */
+      /* inside */ inset 0 0 0 1px #ffffff94,
+      /* outside */      0 0 0 1px #ffffff94,
+      /* --- glow --- */
+      /* inside */ inset 0 0 1rem#f0f40b,
+      /* outside */      0 0 .5rem #f0f40b;
+    color: #f0f40b;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: system-ui, sans-serif;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .button-text{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        animation: glow 1s infinite alternate;
+    }
+}
+
+
+@keyframes glow {
+    0% {
+        text-shadow: none;
+    }
+    100% {
+        text-shadow: 
+            0 0 5px rgb(240, 244, 11),
+            0 0 10px #f0f40b,
+            0 0 20px #f0f40b,
+            0 0 40px #f0f40b,
+            0 0 80px #f0f40b;
+    }
+}

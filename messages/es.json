@@ -6,8 +6,10 @@
   },
   "Hero": {
     "desc": "Levanta tu copa",
-    "title": "eleva tu noche",
-    "button": "Descubre más"
+    "title": "eleva tu noche"
+  },
+  "Button":{
+    "view-more":  "Descubre más"
   },
   "Navbar": {
     "home": "Home",

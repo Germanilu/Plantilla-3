@@ -1,8 +1,10 @@
 {
   "Hero": {
     "desc": "Sorseggia l'eccellenza",
-    "title": "vivi la notte",
-    "button": "Scopri di piú"
+    "title": "vivi la notte"
+  },
+  "Button":{
+    "view-more":  "Scopri di piú"
   },
   "Navbar": {
     "home": "Home",
