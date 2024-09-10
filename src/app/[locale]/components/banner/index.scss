@@ -15,6 +15,11 @@
         align-items: center;
         justify-content: center;
 
+        &:hover{
+            h2{
+                transform: scale(1.2);
+            }
+        }
         &.map{
             display: block;
         }
@@ -25,6 +30,8 @@
             font-size: 52px;
             text-align:center;
             top: 150px;
+            transition: transform .1s ease;
+            transform: scale(1);      
         }
         span{
             font-size: 24px;
@@ -60,6 +67,9 @@
         .box{
             height: 400px;
             width: 400px;
+            h2{
+                font-size: 46px;
+            }
         }
     }
 }
