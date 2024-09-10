@@ -1,6 +1,7 @@
-
+'use client'
 import { useTranslations } from "next-intl";
-import beers from '@/static/media/img/beers.jpg'
+import beers from '@/static/media/img/beers.jpg';
+import { motion } from "framer-motion";
 import Image from 'next/image';
 import './index.scss';
 
@@ -9,7 +10,17 @@ const OpeningHours = () => {
 
     return(
         <div className="opening-hours-design">
-            <div className="text-container">
+            <motion.div className="text-container"
+            variants={{
+                hidden: { opacity: 0, y: 70 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              transition={{ delay: .5, duration: 0.5 }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              >
+
                 <div className="desc">{t('visit-a-bar')}</div>
                 <div className="title">{t('opening-hours')}</div>
                 <div className="hour-container">
@@ -25,11 +36,30 @@ const OpeningHours = () => {
                     <div className="text-hour">{t('four-to-two')}</div>
                 </div>
                 <span>{t('visit-us')}</span>
-            </div>
-            <div className="img-container">
+            </motion.div>
+            <motion.div className="img-container"
+            variants={{
+                hidden: { opacity: 0, y: 70 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              transition={{ delay: .5, duration: 0.5 }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}>
+                
             <Image className="img" src={beers} alt="beers"  quality={100} />
-            </div>
-            <div className="text-container">
+            </motion.div>
+            <motion.div className="text-container"
+            variants={{
+                hidden: { opacity: 0, y: 70 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              transition={{ delay: .5, duration: 0.5 }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              >
+
                 <div className="desc">{t('best-offer')}</div>
                 <div className="title">{t('happy-hour')}</div>
                 <div className="hour-container">
@@ -45,7 +75,7 @@ const OpeningHours = () => {
                     <div className="text-hour">{t('fourth-text')}</div>
                 </div>
                 <span>{t('view-more')}</span>
-            </div>
+            </motion.div>
 
 
         </div>

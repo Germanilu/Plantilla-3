@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Map from "@/app/[locale]/components/google-map-location/index";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
 import OpeningHours from "./components/opening-hours";
