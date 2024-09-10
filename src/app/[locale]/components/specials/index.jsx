@@ -8,7 +8,7 @@ import './index.scss';
 const Specials = () => {
     const t = useTranslations("Specials");
 
-    return(
+    return (
         <div className="specials-design">
 
             <div className="top-text-container">
@@ -56,12 +56,11 @@ const Specials = () => {
                         <span className="drink-price">{t('drink-price6')}</span>
                         <div className="drink-desc">{t('drink-desc6')}</div>
                     </div>
-                 
 
                 </div>
 
                 <div className="special-img">
-                    <Image className="img" src={specialImg} alt="drink"  quality={100} />
+                    <Image className="img" src={specialImg} alt="drink" quality={100} />
                 </div>
 
             </div>
