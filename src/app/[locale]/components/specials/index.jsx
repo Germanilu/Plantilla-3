@@ -108,7 +108,18 @@ const Specials = () => {
                         <span className="drink-price">{t('drink-price4')}</span>
                         <div className="drink-desc">{t('drink-desc4')}</div>
                     </motion.div>
-                    <Button  href='/menu' text='view-more'/>
+                    <motion.div
+                    variants={{
+                      hidden: { opacity: 0, y: 50 },
+                      visible: { opacity: 1, y: 0 },
+                    }}
+                    transition={{ delay: 0.8, duration: 0.5 }}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}>
+
+                      <Button  href='/menu' text='view-more'/>
+                    </motion.div>
                 </div>
 
                 <motion.div className="special-img"
