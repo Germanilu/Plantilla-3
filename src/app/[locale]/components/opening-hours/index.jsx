@@ -15,7 +15,7 @@ const OpeningHours = () => {
                 hidden: { opacity: 0, y: 70 },
                 visible: { opacity: 1, y: 0 },
               }}
-              transition={{ delay: .5, duration: 0.5 }}
+              transition={{ delay: .7, duration: 0.5 }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -42,7 +42,7 @@ const OpeningHours = () => {
                 hidden: { opacity: 0, y: 70 },
                 visible: { opacity: 1, y: 0 },
               }}
-              transition={{ delay: .5, duration: 0.5 }}
+              transition={{ delay: .3, duration: 0.5 }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}>
@@ -54,14 +54,14 @@ const OpeningHours = () => {
                 hidden: { opacity: 0, y: 70 },
                 visible: { opacity: 1, y: 0 },
               }}
-              transition={{ delay: .5, duration: 0.5 }}
+              transition={{ delay: .7, duration: 0.5 }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               >
 
                 <div className="desc">{t('best-offer')}</div>
-                <div className="title">{t('happy-hour')}</div>
+                <div className="title happy-hour">{t('happy-hour')}</div>
                 <div className="hour-container">
                     <div className="label">{t('monday-sunday')}</div>
                     <div className="text-hour">{t('four-to-seven')}</div>
