@@ -107,37 +107,7 @@ const Specials = () => {
                         <span className="drink-price">{t('drink-price4')}</span>
                         <div className="drink-desc">{t('drink-desc4')}</div>
                     </motion.div>
-
-                    <motion.div className="drink-container"
-                     variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 },
-                      }}
-                      transition={{ delay: 0.5, duration: 0.5 }}
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true }}>
-
-                        <div className="drink-name">{t('drink-name5')}</div>
-                        <span className="drink-price">{t('drink-price5')}</span>
-                        <div className="drink-desc">{t('drink-desc5')}</div>
-                    </motion.div>
-
-                    <motion.div className="drink-container"
-                     variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 },
-                      }}
-                      transition={{ delay: 0.6, duration: 0.5 }}
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true }}
-                      >
-                        <div className="drink-name">{t('drink-name6')}</div>
-                        <span className="drink-price">{t('drink-price6')}</span>
-                        <div className="drink-desc">{t('drink-desc6')}</div>
-                    </motion.div>
-
+                    <div className="button">View More</div>
                 </div>
 
                 <motion.div className="special-img"

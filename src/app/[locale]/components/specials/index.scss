@@ -18,6 +18,7 @@
         .title{
             font-size: 52px;
             font-weight: 500;
+ 
         }
         .additional-text{
             font-size: 18px;
@@ -51,6 +52,12 @@
                     font-size: 20px;
                     font-weight: 500;
                     text-transform: capitalize;
+                    text-shadow: 
+                    0 0 5px #f0f40b,
+                    0 0 10px #f0f40b,
+                    0 0 20px #f0f40b,
+                    0 0 40px #f0f40b,
+                    0 0 80px #f0f40b;
                 }
 
                 .drink-price{
@@ -62,6 +69,13 @@
                     font-weight: 200;
                     width: 80%;
                 }
+            }
+            .button{
+                padding: 1rem 2rem;
+                border: 2px solid white;
+                margin: 0 auto;
+                margin-top: 2rem;
+                
             }
         }
         
