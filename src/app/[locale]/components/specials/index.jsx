@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from 'next/image';
 import Button from '../button'
-import specialImg from '@/static/media/img/gnobg.png'
+import specialImg from '@/static/media/img/drinknobg.png'
 import './index.scss';
 
 const Specials = () => {

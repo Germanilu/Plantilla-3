@@ -30,6 +30,12 @@
     "drink-price4": "€16",
     "drink-desc4": "Tequila, succo di lime, Cointreau e purea di ananas piccante, con un bordo di tajín e una fetta di jalapeño."
   },
+  "Banner": {
+  "your-table-awaits": "Il Tuo Tavolo Ti Aspetta",
+  "reserve-now": "Prenota Ora",
+  "menu":"Menu",
+  "our-cocktails":"Scopri i nostri cocktails"
+  },
   "About": {
     "title": "La nostra storia",
     "p1": "Da 15 anni, il nostro ristorante vegetariano è un luogo dove l'amore per il cibo e l'attenzione ai dettagli si uniscono per offrirti un'esperienza autentica. Siamo orgogliosi di fare le cose con la stessa cura del primo giorno, selezionando i migliori ingredienti e curando ogni aspetto di ciò che facciamo.",

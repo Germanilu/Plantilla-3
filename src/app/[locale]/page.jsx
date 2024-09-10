@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import Contact from "./components/contact";
 import OpeningHours from "./components/opening-hours";
 import Specials from "./components/specials";
+import Banner from "./components/banner";
 import ScrollToTop from "@/app/[locale]/components/scroll-to-top/index";
 import './page.scss';
 
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div className="third-section">
         <Specials/>
+      </div>
+      <div className="fourth-section">
+        <Banner/>
       </div>
       
       <ScrollToTop />

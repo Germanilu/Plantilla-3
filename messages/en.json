@@ -34,6 +34,12 @@
     "drink-price4": "€16",
     "drink-desc4": "Tequila, lime juice, Cointreau, and spicy pineapple puree, with a tajín rim and a slice of jalapeño."
   },
+  "Banner":{
+    "your-table-awaits":"Your Table Awaits",
+    "reserve-now":"Reserve Now",
+    "menu": "Menu",
+    "our-cocktails": "Discover Our Cocktails"
+  },
   "About": {
     "title": "About main title"
   },

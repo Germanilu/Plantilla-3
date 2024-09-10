@@ -34,6 +34,12 @@
     "drink-price4": "€16",
     "drink-desc4": "Tequila, jugo de lima, Cointreau y puré de piña picante, con un borde de tajín y una rodaja de jalapeño."
   },
+  "Banner": {
+  "your-table-awaits": "Tu Mesa Te Espera",
+  "reserve-now": "Reserva Ahora",
+  "menu": "Menú",
+  "our-cocktails": "Descubre Nuestros Cócteles"
+  },
   "About": {
     "title": "Titulo pagina sobre nosotros"
   },

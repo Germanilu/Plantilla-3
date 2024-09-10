@@ -31,14 +31,14 @@ export default function Map(){
       const { Marker } = await loader.importLibrary('marker');
       
       const position = {
-        lat: 41.3917722839596,
-        lng: 2.1648703582061923
+        lat: 45.44960184205951,
+        lng: 9.165075712144308
       }
 
       //map options
       const mapOptions = {
         center: position,
-        zoom: 17,
+        zoom: 10,
         mapId: 'MY_NEXTJS_MAPID'
       }
 
