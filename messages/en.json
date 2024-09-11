@@ -13,6 +13,7 @@
     "book-a-table":"Book a Table "
   },
   "Navbar": {
+    "logo":"The Lab",
     "home": "Home",
     "about-us": "About",
     "menu": "Menu",

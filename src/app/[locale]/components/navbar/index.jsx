@@ -1,6 +1,7 @@
 'use client'
 
-import { Link } from '../../../../navigation';
+import { motion } from "framer-motion";
+import {Link}       from '@/navigation';
 import LanguageSwitcher from '../language-switcher';
 import { useTranslations } from "next-intl";
 import { useSelector } from 'react-redux';
@@ -49,8 +50,17 @@ export default function Navbar() {
           </nav>
           :
 
-          <nav className="navbar">
-            <div className="logo">The Lab</div>
+          <motion.nav className="navbar"
+          variants={{
+            hidden: { opacity: 0, y: -70 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          transition={{ delay: .1, duration: 0.5 }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}>
+
+            <div className="logo">{t('logo')}</div>
             <ul className="navbar-list">
               <li className="list-item">
                 <Link className="item" href="/">{t('home')}</Link>
@@ -74,7 +84,7 @@ export default function Navbar() {
               <FaGooglePlusSquare size={23} />
             </div>
             <Link className="navbar-call-to-action" href="/contact-us">{t('book-a-table')}</Link>
-          </nav>
+          </motion.nav>
       }
     </>
   )

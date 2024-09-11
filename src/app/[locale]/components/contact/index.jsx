@@ -93,7 +93,7 @@ export default function Contact() {
       hidden: { opacity: 0, y: 70 },
       visible: { opacity: 1, y: 0 },
     }}
-    transition={{ delay: .1, duration: 0.5 }}
+    transition={{ delay: 1, duration: 0.5 }}
     initial="hidden"
     whileInView="visible"
     viewport={{ once: true }}

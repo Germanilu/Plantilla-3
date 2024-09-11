@@ -12,6 +12,7 @@
     "view-more":  "Descubre más"
   },
   "Navbar": {
+    "logo":"The Lab",
     "home": "Home",
     "about-us": "Sobre nosotros",
     "menu": "Menu",
