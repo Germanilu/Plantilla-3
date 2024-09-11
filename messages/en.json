@@ -9,13 +9,15 @@
     "title": "Elevate Your Night"
   },
   "Button":{
-    "view-more": "View more"
+    "view-more": "View more",
+    "book-a-table":"Book a Table "
   },
   "Navbar": {
     "home": "Home",
     "about-us": "About",
     "menu": "Menu",
-    "contact-us": "Contact Us"
+    "contact-us": "Contact Us",
+    "book-a-table": "Book a Table "
   },
   "Specials": {
     "text": "Featured Creations",

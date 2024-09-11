@@ -21,16 +21,29 @@
     margin-right: 10%;
   }
   .navbar-list{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     font-size: 20px;
     font-weight: 400;
   }
   .language-switcher{
-    font-size: 12px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials{
+    display: flex;
+    gap: .5rem;
+  }
+  .navbar-call-to-action{
+    font-size: 20px;
+    font-weight: 500;
+    animation: glow 1s infinite alternate;
   }
 }
 
@@ -66,5 +79,20 @@
         }
       }
     }
+  }
+}
+
+
+@keyframes glow {
+  0% {
+      text-shadow: none;
+  }
+  100% {
+      text-shadow: 
+          0 0 5px rgb(240, 244, 11),
+          0 0 10px #f0f40b,
+          0 0 20px #f0f40b,
+          0 0 40px #f0f40b,
+          0 0 80px #f0f40b;
   }
 }
