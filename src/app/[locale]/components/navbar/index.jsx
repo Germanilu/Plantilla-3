@@ -9,6 +9,7 @@ import { IoMenu }           from "react-icons/io5";
 import { RxCross2 }         from "react-icons/rx";
 
 import './index.scss';
+import Button from '../button';
 
 export default function Navbar() {
   const t                       = useTranslations("Navbar");
@@ -44,7 +45,9 @@ export default function Navbar() {
             </div>
           </nav>
           :
+          
           <nav className="navbar">
+            <div className="logo">The Lab</div>
             <ul className="navbar-list">
               <li className="list-item">
                 <Link className="item" href="/">{t('home')}</Link>
@@ -60,6 +63,7 @@ export default function Navbar() {
               </li>
               <LanguageSwitcher />
             </ul>
+              <Button  href='/blog' text='view-more'/>
           </nav>
       }
     </>
