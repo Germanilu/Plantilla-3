@@ -32,7 +32,6 @@ export default function Home() {
       <div className="fourth-section">
         <Banner/>
       </div>
-      
       <ScrollToTop />
     </div>
   )
