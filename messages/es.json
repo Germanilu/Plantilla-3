@@ -78,6 +78,21 @@
     "view-more": "Ver más"
   },
   "Footer": {
-    "title": "Footer"
+  "logo": "The Lab",
+  "pages": "Páginas",
+  "opening-hours": "Horario de Apertura",
+  "socials": "Social",
+  "text": "Levanta tu copa, eleva tu noche",
+  "hour": "Lunes - Domingo: 16:00 - 03:00",
+  "street": "Via Ripa di porta Ticinese IV Milano",
+  "phone": "+39 3499999999",
+  "home": "Inicio",
+  "reservation": "Reserva",
+  "menu": "Menú",
+  "contact": "Contáctanos",
+  "monday-friday": "Lunes - Viernes:",
+  "saturday-sunday": "Sábado - Domingo:",
+  "hour1": "16:00 - 01:00",
+  "hour2": "16:00 - 03:00"
   }
 }

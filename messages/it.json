@@ -76,7 +76,22 @@
     "fourth-text": "10% di sconto su tutti i distillati",
     "view-more": "Vedi di più"
   },
-  "Footer": {
-    "title": "Footer"
+ "Footer": {
+  "logo": "The Lab",
+  "pages": "Pagine",
+  "opening-hours": "Orari di Apertura",
+  "socials": "Social",
+  "text": "Sorseggia l'eccellenza, Vivi la notte",
+  "hour": "Lunedì - Domenica: 16:00 - 03:00",
+  "street": "Via Ripa di porta Ticinese IV Milano",
+  "phone": "+39 3499999999",
+  "home": "Home",
+  "reservation": "Prenotazione",
+  "menu": "Menu",
+  "contact": "Contattaci",
+  "monday-friday": "Lunedì - Venerdì:",
+  "saturday-sunday": "Sabato - Domenica:",
+  "hour1": "16:00 - 01:00",
+  "hour2": "16:00 - 03:00"
   }
 }

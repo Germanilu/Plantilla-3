@@ -15,44 +15,44 @@ export default function Footer() {
   return (
     <div className="footer-design">
       <div className="box">
-        <div className="logo">Bridge</div>
-        <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, quia?</p>
+        <div className="logo">{t('logo')}</div>
+        <p className="text">{t('text')}</p>
         <div className="hour-box">
           <HiCalendarDays />
-          <div className="hour">Mon-Sun: 09am - 09pm</div>
+          <div className="hour">{t('hour')}</div>
         </div>
         <div className="hour-box">
           <SiGooglestreetview />
-          <div className="hour">cinca 71 1289 44 bvc</div>
+          <div className="hour">{t('street')}</div>
         </div>
         <div className="hour-box">
           <FaPhone />
-          <div className="hour">+39 340999999</div>
+          <div className="hour">{t('phone')}</div>
         </div>
       </div>
 
       <div className="box center">
-        <h3>Pages</h3>
-        <Link href={'/'} className="link">Home</Link>
-        <Link href={'/#contact'} className="link">Reservations</Link>
-        <Link href={'/menu'} className="link">Menu</Link>
-        <Link href={'/contact-us'} className="link">Contact</Link>
+        <h3>{t('pages')}</h3>
+        <Link href={'/'} className="link">{t('home')}</Link>
+        <Link href={'/#contact'} className="link">{t('reservation')}</Link>
+        <Link href={'/menu'} className="link">{t('menu')}</Link>
+        <Link href={'/contact-us'} className="link">{t('contact')}</Link>
       </div>
 
       <div className="box center">
-        <h3>Opening Hours</h3>
+        <h3>{t('opening-hours')}</h3>
         <div className="opening-hours-box">
-          <div className="days">Monday-Friday:</div>
-          <div className="hours">10:00am - 01:00am</div>
+          <div className="days">{t('monday-friday')}</div>
+          <div className="hours">{t('hour1')}</div>
         </div>
         <div className="opening-hours-box">
-          <div className="days">Saturday-Sunday:</div>
-          <div className="hours">10:00am - 03:00am</div>
+          <div className="days">{t('saturday-sunday')}</div>
+          <div className="hours">{t('hour2')}</div>
         </div>
       </div>
 
       <div className="box socials">
-        <h3 className="socials-h3">Socials</h3>
+        <h3 className="socials-h3">{t('socials')}</h3>
         <div className="socials-box">
         <FaSquareFacebook size={30}/>
         <FaSquareInstagram size={30}/>

@@ -78,6 +78,21 @@
     "view-more": "View more"
   },
   "Footer": {
-    "title": "Footer"
+    "logo":"The Lab",
+    "pages":"Pages",
+    "opening-hours":"Opening Hours",
+    "socials":"Socials",
+    "text":"Raise your glass elevate your night",
+    "hour":"Monday - Sunday: 4:00pm - 3:00am",
+    "street":"Via Ripa di porta Ticinese IV Milano ",
+    "phone":"+39 3499999999",
+    "home":"Home",
+    "reservation":"Reservation",
+    "menu":"Menu",
+    "contact":"Get in touch",
+    "monday-friday": "Monday - Friday:",
+    "saturday-sunday": "Saturday - Sunday:",
+    "hour1":"4:00pm - 1:00am",
+    "hour2":"4:00pm - 3:00am"
   }
 }
