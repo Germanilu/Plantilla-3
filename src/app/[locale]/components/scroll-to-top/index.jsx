@@ -31,7 +31,7 @@ export default function ScrollToTop() {
     <>
       {
         scrollToTopButton &&
-        <div onClick={scrollUp} className="scroll-to-top"><FaArrowUp /></div>
+        <div onClick={scrollUp} className="scroll-to-top"><FaArrowUp color="f0f40b" /></div>
       }
     </>
   )

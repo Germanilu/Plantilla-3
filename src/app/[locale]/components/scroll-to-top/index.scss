@@ -1,11 +1,49 @@
 @import "../../../utilities/variables.scss";
 
-.scroll-to-top{
+.scroll-to-top {
     position: fixed;
     bottom: 1.5rem;
     right: 1.5rem;
-    border: 1px solid $black ;
+    border-radius: 50%;
     width: max-content;
     padding: 1rem;
     cursor: pointer;
+    background-color: transparent;
+    animation: a 3s infinite alternate;
+
+    &:hover {
+        animation: none;
+        box-shadow:
+            /* --- "glass" tube --- */
+            /* inside */
+            inset 0 0 0 1px #ffffff94,
+            /* outside */
+            0 0 0 1px #ffffff94,
+            /* --- glow --- */
+            /* inside */
+            inset 0 0 .5rem#f0f40b,
+            /* outside */
+            0 0 .5rem #f0f40b;
+    }
+
+}
+
+@keyframes a {
+    0% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow:
+            /* --- "glass" tube --- */
+            /* inside */
+            inset 0 0 0 1px #ffffff94,
+            /* outside */
+            0 0 0 1px #ffffff94,
+            /* --- glow --- */
+            /* inside */
+            inset 0 0 .5rem#f0f40b,
+            /* outside */
+            0 0 .5rem #f0f40b;
+    }
 }
