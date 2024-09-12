@@ -42,9 +42,15 @@
   "menu": "Menú",
   "our-cocktails": "Descubre Nuestros Cócteles"
   },
-  "About": {
-    "title": "Sobre nosotros"
-  },
+ "About": {
+  "title": "Sobre nosotros",
+  "p1": "detrás de la escena",
+  "t1": "nuestra historia",
+  "text1": "Ubicado en el corazón de la ciudad, nuestro bar de cócteles es un refugio para aquellos que aprecian el arte de la mixología. Fundado por un grupo de bartenders apasionados, nuestra historia comenzó con un simple amor por crear experiencias únicas e inolvidables, una bebida a la vez. Creemos en la magia que ocurre cuando los mejores licores se encuentran con ingredientes frescos y un toque de creatividad. Desde cócteles clásicos hasta creaciones innovadoras, cada sorbo cuenta una historia. Únete a nosotros y sé parte de nuestro viaje.",
+  "p2": "elaborado con pasión",
+  "t2": "nuestros cócteles",
+  "text2": "En el corazón de nuestro bar reside nuestro compromiso de crear cócteles que sean tan inolvidables como deliciosos. Cada bebida es una obra maestra, meticulosamente diseñada para equilibrar sabores, aromas y estética. Nuestro menú presenta una selección curada de clásicos junto con nuestras creaciones exclusivas, todas elaboradas con los mejores ingredientes de todo el mundo. Ya seas fanático de los clásicos atemporales o de las mezclas aventureras, cada cóctel es un viaje, cuidadosamente mezclado a la perfección y servido con un toque de estilo."
+},
   "Contact-us": {
     "title": "Contacta con nosotros Titulo"
   },

@@ -39,8 +39,14 @@
   "our-cocktails":"Scopri i nostri cocktails"
   },
   "About": {
-    "title": "La nostra storia"
-  },
+  "title": "Informazioni",
+  "p1": "dietro le quinte",
+  "t1": "la nostra storia",
+  "text1": "Situato nel cuore della città, il nostro cocktail bar è un rifugio per chi apprezza l'arte della mixologia. Fondato da un gruppo di bartender appassionati, la nostra storia è iniziata con un semplice amore per creare esperienze uniche e memorabili, un drink alla volta. Crediamo nella magia che si crea quando i migliori distillati si incontrano con ingredienti freschi e un tocco di creatività. Dai cocktail classici alle creazioni innovative, ogni sorso racconta una storia. Unisciti a noi e diventa parte del nostro viaggio.",
+  "p2": "creato con passione",
+  "t2": "i nostri cocktail",
+  "text2": "Nel cuore del nostro bar risiede il nostro impegno a creare cocktail che siano tanto indimenticabili quanto deliziosi. Ogni drink è un capolavoro, meticolosamente progettato per bilanciare sapori, aromi ed estetica. Il nostro menu presenta una selezione curata di classici insieme alle nostre creazioni esclusive, tutte realizzate con i migliori ingredienti provenienti da tutto il mondo. Che tu sia un fan dei classici intramontabili o delle miscele avventurose, ogni cocktail è un viaggio, accuratamente miscelato alla perfezione e servito con un tocco di stile."
+},
   "Contact-us": {
     "title": "Contattaci"
   },
