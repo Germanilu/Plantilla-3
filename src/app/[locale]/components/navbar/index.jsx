@@ -79,9 +79,9 @@ export default function Navbar() {
                     viewport={{ once: true }}
                     >
                       <div className="socials">
-                        <FaSquareFacebook size={23} />
-                        <FaSquareInstagram size={23} />
-                        <FaGooglePlusSquare size={23} />
+                        <FaSquareFacebook size={30} />
+                        <FaSquareInstagram size={30} />
+                        <FaGooglePlusSquare size={30} />
                       </div>
                       <Link className="navbar-call-to-action" href="/contact-us"  onClick={() => setOpenMenu(!openMenu)}>{t('book-a-table')}</Link>
                     </motion.div>
