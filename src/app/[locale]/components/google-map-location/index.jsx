@@ -22,7 +22,7 @@ export default function Map(){
     const initMap = async() => {
 
       const loader = new Loader({
-        apiKey: "AIzaSyBGdWS8K4MVcHVUpnbAWyF_8tVv7WJO-w0",
+        apiKey: "AIzaSyD9K4kAvTLQDDpVpi2DhMTcE1QQObYOk1U",
         version: 'weekly'
       });
 
