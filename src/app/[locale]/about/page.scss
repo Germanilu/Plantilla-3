@@ -73,3 +73,29 @@
         }
     }
 }
+
+@media  (max-width: 744px) {
+    .about-design{
+        .img-container {
+            width: 100%;
+        }
+        .img-text-container{
+            flex-direction: column-reverse;
+            align-items: center;
+            &.img-right{
+                flex-direction: column-reverse;
+            }
+            .img-container{
+                width: 90%;
+                height: 100%;
+                margin:0rem 0rem;
+            }
+            .text-container{
+                width: 90%;
+            }
+        }
+        .img-fullwidth-container{
+            width: 100%;
+        }
+    }
+}
