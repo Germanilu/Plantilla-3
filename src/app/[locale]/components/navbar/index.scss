@@ -58,10 +58,16 @@
     .menu-action{
       width: 100%;
       display: flex; 
-      flex-direction: column;
-      align-items: flex-end;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
       &.open{
         background-color: black;
+        flex-direction: column;
+        align-items: flex-end;
+        .logo{
+          display: none;
+        }
       }
       .burger{
         display:flex;
@@ -69,7 +75,6 @@
         flex-direction:column;
         cursor:pointer;
         padding-right: 1rem;
-        padding-top: 1rem;
         
         span{
           background-color:ghostwhite;
@@ -82,6 +87,7 @@
         }
 
         &.cross{
+          padding-top: 1.5rem;
           span:nth-child(1){
             transform: rotate(45deg) translate(1px, -1px);
           }
@@ -105,6 +111,9 @@
         gap: 1rem;
         background-color: black;
         margin-top: 5rem;
+        .logo-mobile{
+          font-size: 52px;
+        }
         .list-item{
           .item{
             font-size: 28px;

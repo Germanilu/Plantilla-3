@@ -23,6 +23,7 @@ export default function Navbar() {
         isMobile ?
           <nav className="navbar">
             <div className={`${openMenu ? 'menu-action open' : 'menu-action'}`} >
+            <div className="logo">{t('logo')}</div>
               <div className={`${openMenu ? " burger cross" : "burger"}`} onClick={() => setOpenMenu(!openMenu)}>
                 <span></span>
                 <span></span>
@@ -40,6 +41,18 @@ export default function Navbar() {
                     whileInView="visible"
                     viewport={{ once: true }}
                   >
+                    <motion.div className="logo-mobile"
+                     variants={{
+                      hidden: { opacity: 0, y: -100 },
+                      visible: { opacity: 1, y: 0 },
+                    }}
+                    transition={{ delay: 1, duration: 0.5 }}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}>
+                      {t('logo')}
+                      </motion.div>
+
                     <li className="list-item">
                       <Link className="item" href="/"  onClick={() => setOpenMenu(!openMenu)}>{t('home')}</Link>
                     </li>
