@@ -1,8 +1,75 @@
 @import "../../utilities/variables.scss";
 
 .about-design{
-    height: 200vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    .img-container {
+        position: relative;
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+        margin-bottom: 10rem;
+        .img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1{
+            position: absolute;
+            top: 50%;
+            left: 0; 
+            right: 0; 
+            margin-inline: auto; 
+            width: fit-content;
+            font-size: 58px;
+            font-weight: 400;
+        }
+    }
+    .img-fullwidth-container{
+        margin-top: 10rem;
+        width: 95%;
+        height: 500px;
+        .img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .img-text-container{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        width: 95%;
+        &.img-right{
+            margin-top: 10rem;
+            flex-direction: row-reverse;
+        }
+        .img-container{
+            width: 40%;
+            height: 100%;
+            margin:0rem 0rem;
+        }
+        .text-container{
+            width: 40%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            .desc{
+                font-size: 28px;
+                font-weight: 200;
+            }
+            .title{
+                font-size: 58px;
+                font-weight: 300;
+            }
+            .text{
+                font-size: 18px;
+                font-weight: 100;
+                width: 100%;
+            }
+        }
+    }
 }

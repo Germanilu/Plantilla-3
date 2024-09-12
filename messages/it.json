@@ -39,10 +39,7 @@
   "our-cocktails":"Scopri i nostri cocktails"
   },
   "About": {
-    "title": "La nostra storia",
-    "p1": "Da 15 anni, il nostro ristorante vegetariano è un luogo dove l'amore per il cibo e l'attenzione ai dettagli si uniscono per offrirti un'esperienza autentica. Siamo orgogliosi di fare le cose con la stessa cura del primo giorno, selezionando i migliori ingredienti e curando ogni aspetto di ciò che facciamo.",
-    "p2": "Siamo un team che lavora come una famiglia, e questo calore si riflette nell'attenzione che offriamo. Crediamo nell'importanza di ogni piccolo dettaglio e nella creazione di momenti speciali per i nostri clienti.",
-    "p3": "Grazie per far parte della nostra storia e per permetterci di condividere la nostra passione con te."
+    "title": "La nostra storia"
   },
   "Contact-us": {
     "title": "Contattaci"
