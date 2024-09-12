@@ -1,6 +1,6 @@
 import { useTranslations }  from "next-intl";
 import Image from 'next/image';
-import contactImg from '@/static/media/img/contact2.jpg'
+import contactImg from '@/static/media/img/contact.jpg'
 import Contact              from '../components/contact/index';
 import './page.scss'
 
