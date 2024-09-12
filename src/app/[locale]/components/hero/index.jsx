@@ -60,8 +60,7 @@ const Hero = () => {
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-
-                    <Image className="img" src={heroImage} alt="drink1" quality={100} />
+                <Image className="img" src={heroImage} alt="drink1" quality={100} />
                 </motion.div>
             </div>
         </div>
