@@ -6,6 +6,7 @@ import { Kanit }                             from "next/font/google";
 import { useLocale }                         from "next-intl";
 import { notFound }                          from "next/navigation";
 import { Providers }                         from "../Redux/provider";
+import favicon                               from '../public/favicon.ico'
 import "./globals.css";
 
 const inter = Kanit({ subsets: ["latin"], weight: ['100','200','300','400','500','600','700','800','900'] });
@@ -13,6 +14,9 @@ const inter = Kanit({ subsets: ["latin"], weight: ['100','200','300','400','500'
 export const metadata = {
   title: "Default title",
   description: "Default description",
+  icons: {
+    icon: favicon.src, 
+  }
 };
 
 export default function RootLayout({ children, params }) {
