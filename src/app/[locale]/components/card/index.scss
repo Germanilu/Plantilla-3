@@ -1,0 +1,66 @@
+.card-design{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    figure {
+        width: 350px;
+        height: 450px;
+        aspect-ratio: 8 / 5;
+        --bg: hsl(220 10% calc(10% - (var(--hover) * 10%)));
+        --accent: hsla(0, 2%, 90%, 0.534);
+        transition: background 0.2s;
+        background:
+          radial-gradient(circle at top left, var(--accent), transparent 75%),
+          var(--bg);
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+        border-radius: 1.5rem;
+      }
+      
+      figure:after {
+        content: "";
+        position: absolute;
+        width: 20%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        bottom: 0%;
+        left: 10%;
+        background: linear-gradient(-65deg, var(--bg) 50%, var(--accent) 50%);
+        filter: blur(25px);
+        transform:
+          translateX(calc(var(--hover) * 15%))
+          scale(calc(1 + (var(--hover) * 0.2)));
+        transition: transform 0.2s, background 0.2s;
+      }
+      
+      .img {
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        width: 80%;
+        height: 80%;
+        transform:
+          translateX(calc(var(--hover) * -15%))
+          scale(calc(1 + (var(--hover) * 0.2)));
+        transition: transform 0.2s;
+      }
+      .text{
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        border: 1px solid red;
+        width: 40%;
+        font-size: 14px;
+        font-weight: 200;
+
+      }
+      
+      article {
+        --hover: 0;
+      }
+      
+      article:hover {
+        --hover: 1;
+      }
+}
