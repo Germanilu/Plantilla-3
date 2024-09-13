@@ -19,6 +19,9 @@
   "drink8desc": "Rinfrescati con il Lemon Mint Cooler, un mix speziato di succo di limone fresco e foglie di menta su ghiaccio. Questo vibrante cocktail è perfetto per una giornata di sole, offrendo un gusto croccante e stimolante ad ogni sorso.",
   "drink9desc": "Il classico Aperol Spritz è un aperitivo italiano senza tempo, che combina Aperol, prosecco e un tocco di soda. Servito su ghiaccio con una fetta di arancia, è un drink rinfrescante e leggermente amaro, perfetto per ogni occasione."
   },
+  "Menu": {
+  "title": "La Nostra Selezione di Cocktail"
+  },
   "Navbar": {
     "logo":"The Lab",
     "home": "Home",

@@ -45,7 +45,10 @@
         right: 0;
         top: 5%;
         text-align: center;
-        font-size: 32px;
+        font-size: 28px;
+        width: 90%;
+        z-index: 1;
+        text-transform: uppercase;
       }
       .img {
         position: absolute;
@@ -54,7 +57,7 @@
         width: 80%;
         height: 80%;
         transform:
-          translateX(calc(var(--hover) * -15%))
+          translateY(calc(var(--hover) * -15%))
           scale(calc(1 + (var(--hover) * 0.2)));
         transition: transform 0.2s;
       }
@@ -63,7 +66,7 @@
         position: absolute;
         right: 5%;
         bottom: 10%;
-        width: 60%;
+        width: 90%;
         font-size: 14px;
         font-weight: 200;
         transition: opacity .5s ease ;
@@ -83,6 +86,21 @@
             .text{
                 opacity: 1;
             }
+            .title{
+                z-index: 0;
+            }
         }
       }
+}
+
+
+@media (max-width:1150px){
+    .card-design{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:744px){
+    .card-design{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
