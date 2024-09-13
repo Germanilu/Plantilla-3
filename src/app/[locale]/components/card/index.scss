@@ -1,6 +1,9 @@
 .card-design{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     figure {
         width: 350px;
@@ -33,7 +36,16 @@
           scale(calc(1 + (var(--hover) * 0.2)));
         transition: transform 0.2s, background 0.2s;
       }
-      
+      .title{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 5%;
+        text-align: center;
+        font-size: 32px;
+      }
       .img {
         position: absolute;
         left: 10%;
@@ -46,14 +58,18 @@
         transition: transform 0.2s;
       }
       .text{
+        opacity: 0;
         position: absolute;
         right: 5%;
         top: 50%;
-        border: 1px solid red;
-        width: 40%;
+        width: 50%;
         font-size: 14px;
-        font-weight: 200;
-
+        font-weight: 100;
+        transition: opacity .5s ease ;
+        line-height: 1rem;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: .5rem;
       }
       
       article {
@@ -62,5 +78,10 @@
       
       article:hover {
         --hover: 1;
+        figure{
+            .text{
+                opacity: 1;
+            }
+        }
       }
 }

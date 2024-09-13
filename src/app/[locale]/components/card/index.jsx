@@ -24,8 +24,9 @@ const Card = () => {
 
             <article>
                 <figure>
+                    <h3 className="title">Mojito</h3>
                     <Image className="img" src={drinknobg} alt="bar counter" quality={100} />
-                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis amet cum obcaecati harum eos quod laudantium error sequi similique consectetur?</p>
+                <p className="text">White rum, fresh mint, and lime juice, lightly sweetened and topped with soda. A crisp, refreshing Cuban classic.</p>
                 </figure>
             </article>
            
