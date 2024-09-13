@@ -1,7 +1,7 @@
-'use client'
- 
-import { Loader }           from "@googlemaps/js-api-loader";
-import { useRef,useEffect } from "react";
+'use client';
+
+import { Loader } from "@googlemaps/js-api-loader";
+import { useRef, useEffect } from "react";
 
 import './index.scss';
 
@@ -19,10 +19,10 @@ export default function Map(){
 
   useEffect(() => {
 
-    const initMap = async() => {
+    const initMap = async () => {
 
       const loader = new Loader({
-        apiKey: "AIzaSyD9K4kAvTLQDDpVpi2DhMTcE1QQObYOk1U",
+        apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY, // Access the API key from the environment variable remember to setup in vercel
         version: 'weekly'
       });
 
@@ -49,15 +49,14 @@ export default function Map(){
       const marker = new Marker({
         map: map,
         position: position
-      })
+      });
     }
 
     initMap();
 
-  },[]);
+  }, []);
 
-  return(
-    <div className="map-design" ref={mapRef}/>
-
-  )
+  return (
+    <div className="map-design" ref={mapRef} />
+  );
 }
