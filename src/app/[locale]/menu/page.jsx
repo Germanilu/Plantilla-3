@@ -8,7 +8,18 @@ export default function Menu(){
   const t = useTranslations("Menu");
   return (
     <div className="menu-design">
-      <h1>{t('title')}</h1>
+      <motion.h1
+      variants={{
+        hidden: { opacity: 0, y: 0 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      transition={{ delay: .5, duration: 0.5 }}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      >
+        {t('title')}
+      </motion.h1>
       <Card/>
     </div>
   ) 
