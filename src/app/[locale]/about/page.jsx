@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from 'next/image';
 import contactImg from '@/static/media/img/contact.jpg'
+import Button from '../components/button'
 import img1 from '@/static/media/img/building.jpg'
 import img2 from '@/static/media/img/mojito.png'
 
@@ -85,6 +86,9 @@ export default function About() {
           <p className="text">
           {t('text2')}
           </p>
+          <div className="button-container">
+            <Button  href='/menu' text='view-more'/>
+          </div>
         </motion.div>
       </div>
       <motion.div className="img-fullwidth-container"

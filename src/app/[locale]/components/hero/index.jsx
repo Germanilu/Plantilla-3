@@ -47,7 +47,7 @@ const Hero = () => {
                         whileInView="visible"
                         viewport={{ once: true }}
                     >
-                    <Button href='/blog' text='view-more' />
+                    <Button href='/menu' text='view-more' />
                     </motion.div>
                 </div>
                 <motion.div className="img-container"
