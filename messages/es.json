@@ -11,6 +11,19 @@
   "Button":{
     "view-more":  "Descubre más"
   },
+  "Card": {
+  "drink1": "Mojito",
+  "drink1desc": "Ron blanco, menta fresca y jugo de lima, ligeramente endulzado y cubierto con soda. Un clásico cubano refrescante y crujiente.",
+  "drink2": "Sunset Breeze",
+  "drink2desc": "Un cóctel vibrante que mezcla la intensa naranja sanguina con un toque de dulzura. Servido sobre hielo triturado y adornado con una rodaja de naranja sanguina, es la bebida refrescante perfecta para días calurosos y atardeceres impresionantes.",
+  "drink3desc": "Un cóctel vibrante de un tono rojo intenso, que mezcla bayas ácidas con cítricos especiados. Adornado con cítricos secos y delicadas flores, ofrece un sabor floral y refrescante que es tan atractivo como su apariencia.",
+  "drink4desc": "Sumérgete en la Blue Lagoon Margarita, una refrescante versión del clásico margarita. Este vibrante cóctel azul mezcla tequila, lima y un toque de curaçao azul, adornado con menta fresca y lima.",
+  "drink5desc": "Este refrescante cóctel mezcla sabores de cítricos y fresa en una impresionante presentación en capas. Cubierto con rodajas de naranja fresca y una fresa, es una delicia vibrante y afrutada, perfecta para cualquier ocasión.",
+  "drink6desc": "Disfruta del Caramel Velvet, un cóctel cremoso con ricas notas de caramelo y café. Cubierto con una galleta y un toque de cereza, esta bebida decadente es perfecta para un postre o una agradable velada.",
+  "drink7desc": "Una sofisticada versión del clásico Old Fashioned, este cóctel combina la calidez del bourbon con el toque vibrante de la naranja fresca y la dulzura de una cereza. Perfecto para un sorbo refinado y atemporal.",
+  "drink8desc": "Refresca con el Lemon Mint Cooler, una mezcla especiada de jugo de limón fresco y hojas de menta sobre hielo. Este vibrante cóctel es perfecto para un día soleado, ofreciendo un sabor crujiente e invigorante en cada sorbo.",
+  "drink9desc": "El clásico Aperol Spritz es un aperitivo italiano atemporal, que combina Aperol, prosecco y un toque de soda. Servido sobre hielo con una rodaja de naranja, es una bebida refrescante y ligeramente amarga, perfecta para cualquier ocasión."
+  },
   "Navbar": {
     "logo":"The Lab",
     "home": "Home",

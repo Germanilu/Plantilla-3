@@ -6,6 +6,19 @@
   "Button":{
     "view-more":  "Scopri di piú"
   },
+  "Card": {
+  "drink1": "Mojito",
+  "drink1desc": "Rum bianco, menta fresca e succo di lime, leggermente zuccherato e completato con soda. Un classico cubano rinfrescante e croccante.",
+  "drink2": "Sunset Breeze",
+  "drink2desc": "Un cocktail vivace che mescola il gusto intenso dell'arancia rossa con un tocco di dolcezza. Servito su ghiaccio tritato e guarnito con una fetta di arancia rossa, è il drink rinfrescante perfetto per le giornate calde e i tramonti mozzafiato.",
+  "drink3desc": "Un cocktail vivace con una tonalità rosso intenso, che unisce bacche aspre a agrumi speziati. Guarnito con agrumi secchi e delicati fiori, offre un gusto floreale e rinfrescante che è tanto accattivante quanto il suo aspetto.",
+  "drink4desc": "Immergiti nella Blue Lagoon Margarita, una rinfrescante rivisitazione della classica margarita. Questo vivace cocktail blu mescola tequila, lime e un tocco di curaçao blu, guarnito con menta fresca e lime.",
+  "drink5desc": "Questo cocktail rinfrescante mescola sapori di agrumi e fragola in una presentazione stratificata mozzafiato. Completato con fette di arancia fresca e una fragola, è un piacere vibrante e fruttato, perfetto per ogni occasione.",
+  "drink6desc": "Concediti il Caramel Velvet, un cocktail cremoso con note ricche di caramello e caffè. Completato con un biscotto e un tocco di ciliegia, questo drink decadente è perfetto come dessert o per una coccola serale.",
+  "drink7desc": "Una variante sofisticata del classico Old Fashioned, questo cocktail combina il calore del bourbon con il gusto vivace dell'arancia fresca e la dolcezza di una ciliegia. Perfetto per un sorso raffinato e senza tempo.",
+  "drink8desc": "Rinfrescati con il Lemon Mint Cooler, un mix speziato di succo di limone fresco e foglie di menta su ghiaccio. Questo vibrante cocktail è perfetto per una giornata di sole, offrendo un gusto croccante e stimolante ad ogni sorso.",
+  "drink9desc": "Il classico Aperol Spritz è un aperitivo italiano senza tempo, che combina Aperol, prosecco e un tocco di soda. Servito su ghiaccio con una fetta di arancia, è un drink rinfrescante e leggermente amaro, perfetto per ogni occasione."
+  },
   "Navbar": {
     "logo":"The Lab",
     "home": "Home",

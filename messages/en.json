@@ -8,6 +8,19 @@
     "desc": "Raise Your Glass",
     "title": "Elevate Your Night"
   },
+  "Card":{
+    "drink1":"Mojito",
+    "drink1desc":"White rum, fresh mint, and lime juice, lightly sweetened and topped with soda. A crisp, refreshing Cuban classic.",
+    "drink2":"Sunset Breeze",
+    "drink2desc":"A vibrant cocktail mixing zesty blood orange with a hint of sweetness. Served over crushed ice and garnished with a blood orange slice, it's the perfect refreshing drink for warm days and stunning sunsets.",
+    "drink3desc":"A vibrant cocktail with a deep red hue, blending tart berries with zesty citrus. Garnished with dried citrus and delicate flowers, it offers a refreshing, floral taste that's as striking as its appearance.",
+    "drink4desc":"Dive into the Blue Lagoon Margarita, a refreshing twist on the classic margarita. This vibrant blue cocktail blends tequila, lime, and a splash of blue curaçao, garnished with fresh mint and lime.",
+    "drink5desc":"This refreshing cocktail blends citrus and strawberry flavors in a stunning layered presentation. Topped with fresh orange slices and a strawberry, it's a vibrant and fruity delight, perfect for any occasion.",
+    "drink6desc":"Indulge in the Caramel Velvet, a creamy cocktail with rich caramel and coffee notes. Topped with a biscuit and a hint of cherry, this decadent drink is perfect for dessert or a cozy evening treat.",
+    "drink7desc":"A sophisticated twist on the classic Old Fashioned, this cocktail combines the warmth of bourbon with the zest of fresh orange and the sweetness of a cherry garnish. Perfect for a refined, timeless sip.",
+    "drink8desc":"Refresh yourself with the Lemon Mint Cooler, a zesty blend of fresh lemon juice and mint leaves over ice. This vibrant cocktail is perfect for a sunny day, offering a crisp, invigorating taste with every sip.",
+    "drink9desc":"The Classic Aperol Spritz is a timeless Italian aperitif, blending Aperol, prosecco, and a splash of soda. Served over ice with a slice of orange, it's a refreshing and slightly bitter drink, perfect for any occasion."
+  },
   "Button":{
     "view-more": "View more",
     "book-a-table":"Book a Table "
